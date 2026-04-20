@@ -15,5 +15,10 @@ public:
 };
 
 int main() {
-  
+    Mahasiswa mhs;
+    mhs.nim = 12345;
+    mhs.nama = "Abi";
+    mhs.nilai = 85.5;
+
+    mhs.printData();
 }
