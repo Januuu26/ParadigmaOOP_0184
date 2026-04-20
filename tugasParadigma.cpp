@@ -18,3 +18,13 @@ public:
 
 };
 
+int main() {
+    barang elektronik;
+    elektronik.nama = "handphone";
+    elektronik.jumlah = 2;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "206-04-20";
+    elektronik.printData();
+    cout << endl;
+
+}
